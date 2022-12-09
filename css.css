@@ -1,0 +1,140 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1 {
+    margin: 10px;
+    text-align: center;
+}
+
+.wrapper {
+    width: 600px;
+    margin: auto ;
+
+}
+
+article {
+    width: 100%;
+    border: 2px solid black;
+    margin: 20px;
+    background-color: #DCDCDC;
+}
+
+article h2 {
+    padding: 10px;
+    text-align: center;
+    border: 2px solid black;
+    margin: -2px -2px 10px 300px;
+}
+
+.chicken {
+    background-color: #FFB6C1;
+}
+
+.beef {
+    background-color: #B22222;
+    color: white;
+}
+
+.sushi {
+    background-color: beige;
+}
+
+p {
+    margin: 10px;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    article h2 {
+        margin: -2px -2px 10px 150px;
+    }
+    .sushi {
+        margin: -2px -2px 10px 400px;
+    }
+
+    .wrapper {
+        width: 90%;
+        margin-left: 10px;
+        margin-right: 10px;
+        position: relative;
+    }
+
+    div article:nth-child(1) {
+    width: 50%;
+    height: 250px;
+    overflow: hidden;
+    margin: 20px 20px 10px 20px;
+} 
+
+    div article:nth-child(2) {
+        width: 50%;
+        height: 250px;
+        float: right;
+        overflow: hidden;
+        margin: 30px 20px 10px 0px;
+        position: relative;
+        bottom: 290px;
+        left: 54px;
+
+    }
+
+    div article:nth-child(3) {
+        width: 102%;
+        height: 250px;
+        float: left;
+        margin: 30px 20px 10px 20px;
+        position: relative;
+        bottom: 310px;
+
+    }
+
+
+}
+
+@media (min-width: 992px){
+    article h2 {
+        margin: -2px -2px 10px 150px;
+    }
+
+    .wrapper {
+        width: 100%;
+    }
+
+   article {
+    height: 250px;
+    overflow: hidden;
+    float: left;
+    margin-left: auto;
+    margin-right: auto;
+
+   }
+
+   div article:nth-child(1) {
+    width: 30%;
+    height: 250px;
+    margin: 20px;
+
+} 
+
+    div article:nth-child(2) {
+        width: 30%;
+        margin: 20px 10px 10px 0px;
+
+
+
+    }
+
+    div article:nth-child(3) {
+        width: 30%;
+        margin: 20px 10px 10px 10px;
+
+
+
+
+    }
+
+}
